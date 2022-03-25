@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Logo.png">
+    <title>Text Summarization - Data</title>
+</head>
+<body>
+  <a href="Text_Summary.html"><img src="Header1.png" width = 100%></a>
+  <body background="Header2.png">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="Text_Summary.html">Text Summarization</a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="Text_Summary.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Text_Summary_Prediction.html">Prediction</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Text_Summary_Data.html">Data</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Text_Summary_About_Us.html">About Us</a>
+              </li>
+            </ul>
+            <div class="d-flex">
+              <input class="form-control me-2" placeholder="Search" id="text1">
+              <button class="btn btn-outline-success" id="hit_it">Search</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="mainbody" id="searchbody">
+        <h4>Want to contribute to our site? Submit your own data!</h4>
+        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal1">CLICK</button>
+        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Page Unavailable</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Sorry, this feature is not yet available! :(
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br><br><br>
+        <h5>The dataset used for training the model is: </h5>
+        <h4>Check out the Github repository here: </h4>
+        <button type="button" class="btn btn-danger"><a href="https://github.com/Advait-Chirmule/AgeDetection" class="link" target="_blank">CLICK</a></button>
+      </div>
+      <div class="bootstrap">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Home</h5>
+                <p class="card-text">Go back to home</p>
+                <a href="Text_Summary.html" class="btn btn-primary">Click here</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Data</h5>
+                <p class="card-text">Check how we get our data here</p>
+                <a href="Text_Summary_Data.html" class="btn btn-primary">Click here</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Predictor</h5>
+                <p class="card-text">See what our algorithms have to say!</p>
+                <a href="Text_Summary_Prediction.html" class="btn btn-primary">Click here</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">About Us</h5>
+                <p class="card-text">Know more about the project and the creators</p>
+                <a href="Text_Summary_About_Us.html" class="btn btn-primary">Click here</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="footer">
+          <br>
+          <h6>Contact us here: xyz@gmail.com</h6>
+        </div>
+        <script src = "backend.js"></script>
+</body>
+</html>
